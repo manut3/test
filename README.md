@@ -69,8 +69,7 @@ devvo-desafio/
 Abra o terminal e digite:
 
 ```bash
-git clone https://github.com/seu-usuario/devvo-desafio.git
-cd devvo-desafio
+git clone https://github.com/manut3/test
 ```
 
 ### 2. Instalar as dependências
