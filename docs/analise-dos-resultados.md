@@ -17,7 +17,7 @@
 - ID 183 (2 vezes)
 - ID 229 (2 vezes)
 
-## 4. Metodologia da Análise de IDs (JavaScript)
+## 4. Metodologia da Análise de IDs 
 
 A análise dos IDs foi feita após a execução dos testes automatizados, utilizando um script em JavaScript para identificar:
 
@@ -27,25 +27,10 @@ A análise dos IDs foi feita após a execução dos testes automatizados, utiliz
 
 O script percorre o array de IDs retornados pelas requisições à API e utiliza a função `reduce` para contar as ocorrências de cada ID.
 
-### Código Utilizado
-
-## 4. Metodologia da Análise de IDs (JavaScript)
-
-A análise dos IDs foi feita após a execução dos testes automatizados, utilizando um script em JavaScript para identificar:
-
-- O total de IDs coletados
-- Quantos eram únicos
-- Quais se repetiram e quantas vezes
-
-O script percorre o array de IDs retornados pelas requisições à API e utiliza a função `reduce` para contar as ocorrências de cada ID.
-
-
-### Considerações
-Apesar de a maioria dos IDs serem únicos, a presença de 8 repetições em apenas 100 requisições indica que a API pode estar retornando piadas repetidas com alguma frequência. Isso pode afetar negativamente a experiência do usuário final em aplicações que dependem de variedade.
 
 ---
 
-## 2. Tempo de Resposta
+##  Tempo de Resposta
 
 - Tempo médio: 566ms
 - Tempo mínimo: 200ms
@@ -56,7 +41,7 @@ O tempo médio de resposta é aceitável para uma API pública gratuita. No enta
 
 ---
 
-## 3. Estrutura e Validação
+##  Estrutura e Validação
 
 Todos os objetos JSON retornados estavam bem formatados e possuíam os seguintes campos obrigatórios preenchidos:
 - `id`
@@ -67,6 +52,18 @@ Todos os objetos JSON retornados estavam bem formatados e possuíam os seguintes
 Nenhum campo retornou `null` ou valores vazios, o que mostra boa consistência na resposta da API.
 
 ---
+
+## 4. Metodologia da Análise de IDs (JavaScript)
+
+A análise dos IDs foi feita após a execução dos testes automatizados, utilizando um script em JavaScript para identificar:
+
+- O total de IDs coletados
+- Quantos eram únicos
+- Quais se repetiram e quantas vezes
+
+O script percorre o array de IDs retornados pelas requisições à API e utiliza a função `reduce` para contar as ocorrências de cada ID.
+
+
 
 
 ### Código Utilizado
