@@ -69,42 +69,4 @@ duplicados.forEach(([id, count]) => {
 });
 
 
-### Considerações
-Apesar de a maioria dos IDs serem únicos, a presença de 8 repetições em apenas 100 requisições indica que a API pode estar retornando piadas repetidas com alguma frequência. Isso pode afetar negativamente a experiência do usuário final em aplicações que dependem de variedade.
 
----
-
-## 2. Tempo de Resposta
-
-- Tempo médio: 566ms
-- Tempo mínimo: 200ms
-- Tempo máximo: 1296ms
-
-### Análise
-O tempo médio de resposta é aceitável para uma API pública gratuita. No entanto, há uma oscilação considerável, o que pode indicar instabilidade ocasional nos servidores ou limitação de escalabilidade.
-
----
-
-## 3. Estrutura e Validação
-
-Todos os objetos JSON retornados estavam bem formatados e possuíam os seguintes campos obrigatórios preenchidos:
-- `id`
-- `type`
-- `setup`
-- `punchline`
-
-Nenhum campo retornou `null` ou valores vazios, o que mostra boa consistência na resposta da API.
-
----
-
-## Sugestões de Melhoria
-
-1. **Melhorar o Algoritmo de Aleatoriedade:** Evitar a repetição de IDs em um curto período de tempo.
-2. **Caching Dinâmico:** Utilizar uma estratégia de cache no cliente para armazenar os últimos IDs e evitar exibir piadas repetidas.
-3. **Controle de Carga:** Monitorar variações de tempo de resposta para identificar possíveis gargalos.
-
----
-
-## Conclusão
-
-A API se mostrou funcional, com estrutura consistente e respostas rápidas na maioria das requisições. Contudo, a repetição de IDs deve ser tratada caso o sistema consumidor dependa de conteúdos únicos.
