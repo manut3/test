@@ -1,0 +1,869 @@
+{
+	"id": "34e7128a-08e0-412a-ba33-6714d233f2bd",
+	"name": "QA - API de Piadas",
+	"timestamp": "2025-04-16T23:51:17.341Z",
+	"collection_id": "32996383-7c184f53-1fcc-4844-8406-7e01c35fa1bc",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 500,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-04-16T23:50:22.383Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0f011e52-7700-475c-983e-14908ac38211",
+			"name": "GET - api piadas",
+			"url": "https://official-joke-api.appspot.com/random_joke",
+			"time": 389,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status 200 OK": true,
+				"Resposta em JSON válida": true,
+				"Todos os campos obrigatórios estão presentes": true,
+				"Tipos dos dados estão corretos": true,
+				"Campos não estão vazios": true
+			},
+			"testPassFailCounts": {
+				"Status 200 OK": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Resposta em JSON válida": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Todos os campos obrigatórios estão presentes": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Tipos dos dados estão corretos": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Campos não estão vazios": {
+					"pass": 100,
+					"fail": 0
+				}
+			},
+			"times": [
+				477,
+				219,
+				273,
+				389,
+				234,
+				328,
+				1002,
+				285,
+				1148,
+				236,
+				286,
+				210,
+				1094,
+				1074,
+				288,
+				285,
+				280,
+				1147,
+				1066,
+				1159,
+				1148,
+				1171,
+				412,
+				282,
+				290,
+				382,
+				1002,
+				1153,
+				216,
+				404,
+				1161,
+				220,
+				597,
+				1001,
+				1148,
+				235,
+				284,
+				288,
+				277,
+				286,
+				385,
+				281,
+				1153,
+				1158,
+				1010,
+				377,
+				1247,
+				553,
+				1158,
+				230,
+				995,
+				386,
+				394,
+				275,
+				1009,
+				382,
+				1197,
+				1189,
+				315,
+				287,
+				291,
+				1008,
+				378,
+				387,
+				980,
+				222,
+				366,
+				399,
+				220,
+				247,
+				285,
+				389,
+				287,
+				288,
+				286,
+				287,
+				223,
+				249,
+				284,
+				214,
+				356,
+				220,
+				343,
+				596,
+				281,
+				988,
+				203,
+				219,
+				210,
+				379,
+				215,
+				217,
+				283,
+				489,
+				388,
+				999,
+				385,
+				208,
+				367,
+				389
+			],
+			"allTests": [
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				},
+				{
+					"Status 200 OK": true,
+					"Resposta em JSON válida": true,
+					"Todos os campos obrigatórios estão presentes": true,
+					"Tipos dos dados estão corretos": true,
+					"Campos não estão vazios": true
+				}
+			]
+		}
+	],
+	"count": 100,
+	"totalTime": 52443,
+	"collection": {
+		"requests": [
+			{
+				"id": "0f011e52-7700-475c-983e-14908ac38211",
+				"method": "GET"
+			}
+		]
+	}
+}

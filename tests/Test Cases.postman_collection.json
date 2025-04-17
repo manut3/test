@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "7c184f53-1fcc-4844-8406-7e01c35fa1bc",
+		"name": "QA - API de Piadas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32996383"
+	},
+	"item": [
+		{
+			"name": "GET - api piadas",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status 200 OK\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Resposta em JSON válida\", function () {",
+							"    pm.response.to.be.withBody;",
+							"    pm.response.to.be.json;",
+							"});",
+							"",
+							"const dados = pm.response.json();",
+							"",
+							"pm.test(\"Todos os campos obrigatórios estão presentes\", function () {",
+							"    pm.expect(dados).to.have.property(\"id\");",
+							"    pm.expect(dados).to.have.property(\"type\");",
+							"    pm.expect(dados).to.have.property(\"setup\");",
+							"    pm.expect(dados).to.have.property(\"punchline\");",
+							"});",
+							"",
+							"pm.test(\"Tipos dos dados estão corretos\", function () {",
+							"    pm.expect(dados.id).to.be.a(\"number\");",
+							"    pm.expect(dados.type).to.be.a(\"string\");",
+							"    pm.expect(dados.setup).to.be.a(\"string\");",
+							"    pm.expect(dados.punchline).to.be.a(\"string\");",
+							"});",
+							"",
+							"pm.test(\"Campos não estão vazios\", function () {",
+							"    pm.expect(dados.setup.trim().length).to.be.above(0);",
+							"    pm.expect(dados.punchline.trim().length).to.be.above(0);",
+							"});",
+							"",
+							"let ids = pm.collectionVariables.get(\"ids\") || \"[]\"; ",
+							"ids = JSON.parse(ids); ",
+							"ids.push(pm.response.json().id); ",
+							"pm.collectionVariables.set(\"ids\", JSON.stringify(ids)); ",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://official-joke-api.appspot.com/random_joke",
+					"protocol": "https",
+					"host": [
+						"official-joke-api",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"random_joke"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "ids",
+			"value": ""
+		}
+	]
+}
