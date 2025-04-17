@@ -1,6 +1,6 @@
 # Teste QA - API de Piadas
 
-Este repositório contém a automação de testes da API de piadas aleatórias como parte do **Desafio de QA** proposto pela empresa **Devvo**. O objetivo do desafio é garantir, por meio de testes automatizados e documentados, que a API esteja funcionando corretamente em relação à estrutura, conteúdo, performance e comportamento sob carga.
+Este repositório contém a automação de testes da API de piadas aleatórias. O objetivo do desafio é garantir, por meio de testes automatizados e documentados, que a API esteja funcionando corretamente em relação à estrutura, conteúdo, performance e comportamento sob carga.
 
 ---
 
